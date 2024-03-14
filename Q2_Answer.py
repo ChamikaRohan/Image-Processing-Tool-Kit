@@ -19,10 +19,6 @@ def main():
     FILE_PATH = "TestImage/Image.png"
     image = cv2.imread(FILE_PATH, cv2.IMREAD_GRAYSCALE)
 
-    if image is None:
-        print("Error: Unable to load image")
-        return
-
     #Apply 3x3 average filter
     avg_3x3 = average_filter(image, 3)
 

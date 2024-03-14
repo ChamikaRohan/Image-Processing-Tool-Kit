@@ -5,8 +5,8 @@ Weerawanni W.M.C.R.
 
 import cv2
 
-def reduce_intensity_levels(image, num_levels):
-    factor = 256 // num_levels
+def reduce_intensity_levels(image, numLevels):
+    factor = 256 // numLevels
     quantizedImage = (image // factor) * factor
     return quantizedImage
 
