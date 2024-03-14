@@ -19,7 +19,7 @@ def main():
     FILE_PATH = "TestImage/Image.png"
     image = cv2.imread(FILE_PATH, cv2.IMREAD_GRAYSCALE)
 
-    #Apply 3x3 average filter
+    #Appling 3x3 average filter
     avg_3x3 = average_filter(image, 3)
 
     #Apply 10x10 average filter

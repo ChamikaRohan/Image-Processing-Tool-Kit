@@ -24,7 +24,7 @@ def main():
         print("Number of levels must be a power of 2!")
         return
 
-    #Reduce the number of intensity levels using a function
+    #Reducing the number of intensity levels using a function
     reducedImage = reduce_intensity_levels(img, numOfLevels)
 
     #Here saving the reduced image
